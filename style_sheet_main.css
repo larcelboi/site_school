@@ -1,0 +1,29 @@
+.section1{
+    color: rebeccapurple;
+    font-size: large;
+    text-align: center;
+    border: double;
+}
+.section2{
+    color: gainsboro;
+    font-size: medium;
+    text-align: right;
+    border: cornflowerblue;
+}
+.section3{
+    color: cornflowerblue;
+    font-size: small;
+    text-align: left;
+    border: wheat;
+}
+
+nav.header-nav-list {
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr) !important;
+    grid-gap: 5px !important;
+}
+nav.header-nav-list>div {
+    padding: 0px !important;
+    margin: 0px !important;
+    justify-content: flex-end !important;
+}
